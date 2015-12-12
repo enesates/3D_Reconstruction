@@ -7,5 +7,5 @@ Building OpenCV with OpenNI and OpenGL:
 - cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_OPENNI=ON -D WITH_OPENGL=ON -D
 
 Compiling the code:
-g++ -o pointCloud pointCloud.cpp $(pkg-config opencv --cflags --libs) -lGL -lGLU -lGLEW -lglut -lglfw
+- g++ -o pointCloud pointCloud.cpp $(pkg-config opencv --cflags --libs) -lGL -lGLU -lGLEW -lglut -lglfw
 
